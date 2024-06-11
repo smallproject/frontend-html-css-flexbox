@@ -1,1 +1,90 @@
 /*Schrijf hier jouw css*/
+body {
+    height: 953px;
+    text-align: center;
+    /*margin: 0 auto;*/
+    background-color: #F2F3D9;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    height: 8%;
+    background-color: #030027;
+
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 10px;
+}
+
+.nav-row-1 {
+    justify-content: space-around;
+}
+
+.nav-row-2 {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.col-1 {
+    flex-basis: 25%;
+    flex-grow: 0;
+    flex-shrink: 0;
+
+    align-content: space-around;
+}
+
+.col-2 {
+
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    gap: 20px;
+}
+
+.row-1 {
+
+    height: 350px;
+    border-radius: 10px;
+    background-color: #C16E70;
+    padding: 10px;
+
+    flex-basis: 280px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    align-content: flex-end;
+}
+
+.row-2 {
+
+    height: 350px;
+    border-radius: 10px;
+    background-color: #C16E70;
+    padding: 10px;
+
+    flex-basis: 280px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    align-content: flex-end;
+}
+
+.row-3 {
+
+    height: 350px;
+    border-radius: 10px;
+    background-color: #C16E70;
+    padding: 10px;
+
+    flex-basis: 280px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    align-content: flex-end;
+}
