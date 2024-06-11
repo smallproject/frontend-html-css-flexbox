@@ -23,7 +23,7 @@ body {
 }
 
 header {
-    flex-basis: 15vw;
+    flex-basis: 10vw;
     flex-grow: 0;
     flex-shrink: 0;
 }
