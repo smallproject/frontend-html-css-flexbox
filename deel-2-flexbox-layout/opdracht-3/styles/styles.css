@@ -23,7 +23,7 @@ div {
 
 /* ############niveau 3################*/
 header {
-    flex-basis: 0;
+    flex-basis: 10vw;
     flex-grow: 1;
 }
 
@@ -35,7 +35,7 @@ main {
 }
 
 footer {
-    flex-basis: 0;
+    flex-basis: 5vw;
     flex-grow: 1;
 }
 
