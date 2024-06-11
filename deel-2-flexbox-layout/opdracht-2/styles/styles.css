@@ -23,7 +23,7 @@ body {
 }
 
 header {
-    flex-basis: 0;
+    flex-basis: 15vw;
     flex-grow: 0;
     flex-shrink: 0;
 }
@@ -49,7 +49,7 @@ article {
 }
 
 footer {
-    flex-basis: 0;
+    flex-basis: 8vw;
     flex-grow: 0;
     flex-shrink: 0;
 }
